@@ -1,0 +1,173 @@
+
+/*****Base style ******/
+
+*{
+
+	box-sizing:border-box;
+	background-color:lightgreen;
+}
+
+h1{
+
+	text-align:center;
+	color:red;
+	font-size:40px;
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+
+div{
+
+	width:500px;
+	height:500px;
+	color:blue;
+	font-size:18px;
+	margin:50px;
+	float:right;
+	padding:10px;
+	border:1px solid black;
+
+}
+
+div,p,image{
+
+	background-color: orange;
+	overflow:scroll;
+}
+
+
+h2{
+
+	color:red;
+	text-align:right;
+	background-color: orange;
+
+}
+
+/*****For large screen devices****/
+
+@media(min-width:992px)
+{
+
+h1{
+
+	text-align:center;
+	color:red;
+	
+}
+
+div{
+
+    width:25%;
+	color:blue;
+	margin:15px;
+	float:right;
+	padding:10px;
+	border:1px solid black;
+
+
+}
+
+
+div,p,image{
+
+	background-color: orange;
+	overflow:auto;
+}
+
+
+h2{
+
+	color:red;
+	text-align:right;
+	background-color: orange;
+
+}
+}
+
+/*******For medium screensize devices********/
+
+@media(min-width:768px) and (max-width:991px) 
+{
+h1{
+
+	text-align:center;
+	color:red;
+	
+}
+
+div{
+
+	width:33.33%;
+	color:blue;
+	float:right;
+	border:1px solid black;
+	float:both;
+	
+
+}
+
+.item3{
+
+	width:100%;
+}
+
+div,p,image{
+
+	background-color: orange;
+	overflow:auto;
+}
+
+
+h2{
+
+	color:red;
+	text-align:right;
+	background-color: orange;
+
+}
+
+}
+
+/******For small devices******/
+
+@media(max-width:767px) 
+{
+h1{
+
+	text-align:center;
+	color:red;
+	
+}
+
+div{
+
+	width:100%;
+	color:blue;
+	float:right;
+	border:1px solid black;
+	float:both;
+
+}
+
+
+div,p,image{
+
+	background-color: orange;
+	overflow:auto;
+}
+
+
+h2{
+
+	color:red;
+	text-align:right;
+	background-color: orange;
+
+}
+
+}
+
+
+
+
