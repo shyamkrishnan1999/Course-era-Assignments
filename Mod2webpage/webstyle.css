@@ -22,7 +22,7 @@ div{
 	height:500px;
 	color:blue;
 	font-size:18px;
-	margin:50px;
+	margin-left:50px;
 	float:right;
 	padding:10px;
 	border:1px solid black;
@@ -60,7 +60,7 @@ div{
 
     width:25%;
 	color:blue;
-	margin:15px;
+	margin-left:15px;
 	float:right;
 	padding:10px;
 	border:1px solid black;
@@ -102,7 +102,8 @@ div{
 	color:blue;
 	float:right;
 	border:1px solid black;
-	margin:10px;
+	margin-left:10px;
+	margin-top:10px;
 	float:both;
 	
 
@@ -147,7 +148,7 @@ div{
 	color:blue;
 	float:right;
 	border:1px solid black;
-	margin:5px;
+	margin-left:5px;
 	float:both;
 
 }
