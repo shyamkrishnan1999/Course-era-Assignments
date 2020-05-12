@@ -102,6 +102,7 @@ div{
 	color:blue;
 	float:right;
 	border:1px solid black;
+	margin:10px;
 	float:both;
 	
 
@@ -146,6 +147,7 @@ div{
 	color:blue;
 	float:right;
 	border:1px solid black;
+	margin:5px;
 	float:both;
 
 }
