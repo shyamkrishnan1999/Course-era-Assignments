@@ -60,7 +60,7 @@ div{
 
     width:25%;
 	color:blue;
-	margin-left:15px;
+	margin:50px 50px 50px 50px;
 	float:right;
 	padding:10px;
 	border:1px solid black;
@@ -102,8 +102,7 @@ div{
 	color:blue;
 	float:right;
 	border:1px solid black;
-	margin-left:10px;
-	margin-top:10px;
+	margin:15px 15px 15px 15px;
 	float:both;
 	
 
@@ -148,7 +147,7 @@ div{
 	color:blue;
 	float:right;
 	border:1px solid black;
-	margin-left:5px;
+	margin:10px 10px 10px 10px;
 	float:both;
 
 }
